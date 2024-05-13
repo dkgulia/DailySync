@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner Tool</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+
+
+<div class="navbar">
+    <h2>Hello, Deepak</h2>
+    <div class="navbar-buttons">
+        <button class="profile-button">Profile</button>
+        <button class="signout-button">Sign Out</button>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="left-section">
+        <h2>To-Do List <img src="icon.png"></h2>
+        <div class="row">
+            <input type="text" name="" id="input-box" placeholder="Add your Task">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="task-container">
+           <!-- <li class="checked">Task 1</li>
+           <li>Task 1</li>
+           <li>Task 1</li> -->
+        </ul>
+        
+    </div>
+    
+
+  
+    <div class="middle-section">
+        <h2>Journal Writing</h2>
+        <br>
+        <textarea placeholder="Write your journal entry here... "></textarea>
+        <button id="save-button">Save Journal</button>
+    </div>
+
+  
+    <div class="right-section">
+        <div class="calendar">
+            <div class="left">
+                <p id="date">01</p>
+                <p id="day">Sunday</p>
+            </div>
+            <div class="right">
+                <p id="month">May</p>
+                <p id="year">2024</p>
+            </div>
+           
+        </div>
+        
+        <div class="Habit">
+            <h2>Habit Tracker</h2>
+            <!-- Add habit tracker content here -->
+        </div>
+        
+        <div class="Bucket">
+            <h2>Bucket List</h2>
+            <!-- Add bucket list content here -->
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js" ></script>
+</body>
+</html>
